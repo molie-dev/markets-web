@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const coingeckoBaseUrl = 'https://api.coingecko.com/api/v3/coins'
-const blocksdecodedUrl = 'https://api-markets.moliedev.xyz/v1'
+const blocksdecodedUrl = 'https://api-markets.moliedev.xyz.com/v1'
 
 export function getMarketsGlobal() {
   return axios.get(`${blocksdecodedUrl}/global-markets`)
